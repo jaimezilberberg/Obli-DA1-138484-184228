@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{EE1121FD-6610-4E41-9CF9-2798779CDB99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolManagement", "SchoolManagement\SchoolManagement.csproj", "{00D61A54-F065-41B0-B19B-62547471951C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProjectSchoolManagement", "UnitTestProjectSchoolManagement\UnitTestProjectSchoolManagement.csproj", "{066F1CE1-26AA-47BA-976E-C10CF8AFB4EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE1121FD-6610-4E41-9CF9-2798779CDB99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE1121FD-6610-4E41-9CF9-2798779CDB99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE1121FD-6610-4E41-9CF9-2798779CDB99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE1121FD-6610-4E41-9CF9-2798779CDB99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00D61A54-F065-41B0-B19B-62547471951C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D61A54-F065-41B0-B19B-62547471951C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D61A54-F065-41B0-B19B-62547471951C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D61A54-F065-41B0-B19B-62547471951C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{066F1CE1-26AA-47BA-976E-C10CF8AFB4EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{066F1CE1-26AA-47BA-976E-C10CF8AFB4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{066F1CE1-26AA-47BA-976E-C10CF8AFB4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{066F1CE1-26AA-47BA-976E-C10CF8AFB4EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
