@@ -9,14 +9,14 @@ namespace UnitTestProjectSchoolManagement
         [TestMethod]
         public void TestMethodStudent()
         {
-            Person student = new Student();
+            Student student = new Student();
             student.StudentNumber = 1;
             student.ID = 1;
 
-            Assert.AreEqual("",student.Name);
-            Assert.AreEqual("",student.Surname);
-            Assert.Equals(1, student.StudentNumber);
-            Assert.Equals(1, student.ID);
+            Assert.AreEqual("a",student.Name);
+            Assert.AreEqual("a",student.Surname);
+            Assert.AreEqual(1, student.StudentNumber);
+            Assert.AreEqual(1, student.ID);
         }
     }
 }

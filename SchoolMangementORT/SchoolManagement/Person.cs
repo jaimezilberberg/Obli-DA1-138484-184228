@@ -7,8 +7,8 @@
 
         public Person()
         {
-            Name = "";
-            Surname = "";
+            Name = "a";
+            Surname = "a";
         }
 
         public Person(string name,string surname)
