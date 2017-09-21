@@ -30,5 +30,15 @@ namespace UnitTestProjectSchoolManagement
             Assert.AreEqual("", person.Name);
             Assert.AreEqual("", person.Surname);
         }
+        [TestMethod]
+        public void TestMethodConstructorWithParameters()
+        {
+            Person person = new Person("Roger","Federer");
+            
+
+
+            Assert.AreEqual("Roger", person.Name);
+            Assert.AreEqual("Federer", person.Surname);
+        }
     }
 }
