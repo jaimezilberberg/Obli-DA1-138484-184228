@@ -22,7 +22,13 @@ namespace UnitTestProjectSchoolManagement
         [TestMethod]
         public void TestMethodConstructor()
         {
-            Person person = new Person(); 
+            Person person = new Person();
+            person.Name = "";
+            person.Surname = "";
+
+           
+            Assert.AreEqual("", person.Name);
+            Assert.AreEqual("", person.Surname);
         }
     }
 }
